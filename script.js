@@ -5,6 +5,7 @@ function addRecommendation() {
   if (recommendation.value != null && recommendation.value.trim() != "") {
     console.log("New recommendation added");
     //Call showPopup here
+    showPopup(true);
 
     // Create a new 'recommendation' element and set it's value to the user's message
     var element = document.createElement("div");
