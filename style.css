@@ -5,15 +5,14 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
-  padding-bottom: 1cm;
-  margin-left:-1cm;
-  margin-right:-1cm;
-  margin-top:-1cm;
+  background-color: #7600bc;
+  margin-left: -1cm;
+  margin-right: -1cm;
+  margin-top: -1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
- }
+}
 
 .topmenu {
   color: lightgray;
@@ -58,7 +57,6 @@ body {
 /* Titles */
 
 h2 {
-  text-align: justify;
   font-size: 50px;
   text-align: center;
   float: left;
@@ -70,7 +68,6 @@ h2 {
 }
 
 .introduction {
-  text-align: justify;
   font-size: 30px;
   text-align: center;
   float: left;
@@ -202,15 +199,14 @@ h2 {
   font-style: italic;
   text-align: left;
   width: 21.875rem;
-  padding: 1rem;
+  padding: 20px;
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  border:1px solid gray;
+  border: 1px solid gray;
   font-size: 18px;
-  height:150px
+  height: 150px;
 }
 
 .recommendation span {
@@ -288,12 +284,13 @@ input, textarea {
 }
 
 fieldset {
-  display: flexbox;
-  align-content: center;
-  justify-content: center;  
-  padding: 25px; 
-  margin-left: 50px; 
-  margin-right: 50px;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: thin solid white;
   width: 50%;
 }

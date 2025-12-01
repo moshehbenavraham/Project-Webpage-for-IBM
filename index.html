@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Max Gibson - Full Stack Developer Portfolio showcasing skills in cloud technologies, AI, and web development">
     <title>Max Gibson - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -12,12 +15,12 @@
         <div class="profile_name">
           Max Gibson
           <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+            <img src="html_finalprojimages/envelope.png" alt="Email icon">
           Mgibson@jeemail.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          <img src="html_finalprojimages/phone.png" alt="Phone icon">
           +13456764598
 
         </div>
@@ -34,12 +37,12 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="html_finalprojimages/max_profile_gif.gif" class="profile_image"/>
+        <img src="html_finalprojimages/max_profile_gif.gif" class="profile_image" alt="Max Gibson profile picture">
       </div>
 
       <div>
           <h1>
-            Hi, I'm Max Gibson! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+            Hi, I'm Max Gibson! <img src="html_finalprojimages/waving-hand.png" width="60px" alt="Waving hand">
           </h1>
           <p>
             I'm a passionate full stack developer with a knack for creating innovative solutions. 
@@ -61,37 +64,37 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
+          <img src="html_finalprojimages/html5.png" alt="HTML5 logo">
           <h6>HTML</h6>
           <p>2 years experience</p>
         </div>  
 
         <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
+          <img src="html_finalprojimages/js.jpeg" alt="JavaScript logo">
           <h6>JavaScript</h6>
           <p>3 years experience</p>
         </div>  
 
         <div class="skill">
-          <img src="html_finalprojimages/CSS3.png"/>
+          <img src="html_finalprojimages/CSS3.png" alt="CSS3 logo">
           <h6>CSS</h6>
           <p>2 years experience</p>
         </div>
         
         <div class="skill">
-          <img src="html_finalprojimages/java.png"/>
+          <img src="html_finalprojimages/java.png" alt="Java logo">
           <h6>Java</h6>
           <p>1 year experience</p>
         </div>
         
         <div class="skill">
-          <img src="html_finalprojimages/node.png"/>
+          <img src="html_finalprojimages/node.png" alt="Node.js logo">
           <h6>Node.js</h6>
           <p>1 year experience</p>
         </div>
         
         <div class="skill">
-          <img src="html_finalprojimages/react.png"/>
+          <img src="html_finalprojimages/react.png" alt="React logo">
           <h6>React</h6>
           <p>6 months experience</p>
         </div>
@@ -163,8 +166,8 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <input type="text" placeholder="Name (Optional)"><br>
+          <textarea id="new_recommendation" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
           </div>
@@ -180,8 +183,8 @@
       </a>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
+    <div class="popup flex_center" id="popup">
+      <img src="html_finalprojimages/checkmark--outline.svg" alt="Success checkmark">
       <h3>Thanks for leaving a recommendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
